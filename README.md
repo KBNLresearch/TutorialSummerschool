@@ -7,7 +7,7 @@ Kranten:
 * Het Vaderland
 
 Nieuwe opzet:
-* Basics python/notebook. Dit kunnen we ook meegeven als huiswerk.
+* Basics python/notebook. Dit kunnen we ook meegeven als huiswerk: https://kbnlresearch.github.io/xml-workshop/1_introduction_python.html
 * Inlezen dataset.
 * Basic info over dataset: wat zit erin? En wat ontbreekt?
     * Aantal kranten.
