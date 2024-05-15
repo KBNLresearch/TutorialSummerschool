@@ -2,7 +2,7 @@
 
 Jaar: 1873
 Kranten: 
-* Nieuwe Rotterdamsche Courant
+* de Tijd
 * de Standaard
 * Het Vaderland
 
