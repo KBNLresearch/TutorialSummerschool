@@ -8,9 +8,9 @@ def process_text(text):
     return nlp(text)
 
 rows_to_keep = range(0, 100)
-vaderland = pd.read_csv("HetVaderland_1873_fixed.csv", index_col=0, delimiter=',', encoding='utf-8', quotechar='"', quoting=0, skiprows = lambda x: x not in rows_to_keep)
+vaderland = pd.read_csv("HetVaderland_1873.csv", index_col=0, delimiter=',', encoding='utf-8', quotechar='"', quoting=0, skiprows = lambda x: x not in rows_to_keep)
 standaard = pd.read_csv("DeStandaard_1873.csv", index_col = 0, delimiter=',', encoding='utf-8', quotechar='"', quoting=0, skiprows = lambda x: x not in rows_to_keep)
-tijd = pd.read_csv("DeTijd_1873_fixed.csv", index_col = 0, delimiter=',', encoding='utf-8', quotechar='"', quoting=0, skiprows = lambda x: x not in rows_to_keep)
+tijd = pd.read_csv("DeTijd_1873.csv", index_col = 0, delimiter=',', encoding='utf-8', quotechar='"', quoting=0, skiprows = lambda x: x not in rows_to_keep)
 
 data = pd.concat([vaderland, standaard, tijd])
 
