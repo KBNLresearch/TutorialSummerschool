@@ -2,9 +2,11 @@
 
 Jaar: 1873
 Kranten: 
-* de Tijd
-* de Standaard
+* De Tijd
+* De Standaard
 * Het Vaderland
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/KBNLresearch/TutorialSummerschool/mmo010-documentation)
 
 Nieuwe opzet:
 * Basics python/notebook. Dit kunnen we ook meegeven als huiswerk: https://kbnlresearch.github.io/xml-workshop/1_introduction_python.html
