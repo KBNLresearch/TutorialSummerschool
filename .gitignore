@@ -1,0 +1,6 @@
+.idea/
+.ipynb_checkpoints/*.ipynb
+.ipynb_checkpoints/*.md
+.jupyter/
+data/.ipynb_checkpoints/
+map.html
